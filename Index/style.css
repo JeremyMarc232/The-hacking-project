@@ -1,0 +1,64 @@
+body{
+  margin: 0px;
+}
+#topmenu{
+display: flex;
+ position: absolute;
+ top: 20px;
+ right: 50px;
+
+}
+.link_topmenu{
+margin-right: 15px;
+}
+
+.NavBar{
+width: 500px;
+border-radius: 60px;
+height: 30px;
+border: 1px solid #dfe1e5;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+#mainmenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+}
+.footer{
+    display:block;
+    background-color: #e4e4e4;
+    height: 40px;
+    margin: 0px;
+  }
+  .france{
+    border-bottom: 1px solid gray;
+
+  }
+#buttoncontainer{
+    display: flex;
+    flex-direction: row;
+  
+}
+.mainmenuelement{
+    margin: 20px;
+}
+#buttoncontainer button {
+    margin: 10px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 36px;
+    border:none;
+    border-radius: 4px;
+
+  
+
+}
+#footer button
+{display: flex;
+    background-color: transparent;
+}
